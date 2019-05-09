@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 //        pentru a nu afisa by default poza
+        print("cod pe Git")
+        
        myWestie.isHidden = true
        myButton.setTitle("Afiseaza imagine", for: .normal)
         
